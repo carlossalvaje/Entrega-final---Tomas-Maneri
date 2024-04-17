@@ -11,176 +11,94 @@
 /*BODY AYUDA FIN*/
 
 /*AYUDA GRID*/
-.ayuda-page{
-    h1{
-        text-transform: uppercase;
-        color: aqua;
-        padding: 10px;
-        padding-top: 40px;
-        font-size: 50px;
-        text-align: center;
-    }
-}
-
-.ayuda-page{
-    .ayuda-grids{
-        display: grid;
-        grid-template-columns: repeat(1fr, 300px);
-    }
-}
-
-.ayuda-page{
-    .ayuda-grids{
-        .ayuda-metod{
-            background-color: rgba(208, 120, 255, 0.091);
-            padding: 10px;
-            border-radius: 10px;
+.main-ayuda{
+    .contenedor-ayudas{
+        .ayuda-web{
+            background-color: rgba(56, 0, 59, 0.245);
+            padding: 5px;
+            margin-top: 50px;
             margin: 10px;
-            h4{
-                color: rgb(0, 180, 180);
-                text-align: center;
-                text-transform: uppercase;
+            border-radius: 15px;
+            div{
+                h1{
+                    color: rgb(0, 220, 220);
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: 10px;
+                    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
+                }
+                p{
+                    color: rgb(221, 221, 221);
+                    text-align: center;
+                }
             }
-            p{
-                color: rgb(211, 212, 212);
-                text-align: center;
+        }
+        .ayuda-ayuda{
+            background-color: rgba(56, 0, 59, 0.245);
+            padding: 5px;
+            margin: 10px;
+            border-radius: 15px;
+            div{
+                h1{
+                    color: rgb(0, 220, 220);
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: 10px;
+                    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
+                }
+                p{
+                    color: rgb(221, 221, 221);
+                    text-align: center;
+                }
             }
         }
     }
 }
-
-.ayuda-page{
-    .ayuda-grids{
-        .ayuda-pagos{
-            background-color: rgba(208, 120, 255, 0.091);
-            padding: 10px;
-            border-radius: 10px;
-            margin: 10px;
-            h4{
-                color: rgb(0, 180, 180);
-                text-align: center;
-                text-transform: uppercase;
-            }
-            p{
-                color: rgb(211, 212, 212);
-                text-align: center;
-            }
-        }
-    }
-}
-
-.ayuda-page{
-    .ayuda-grids{
-        .ayuda-conec{
-            background-color: rgba(208, 120, 255, 0.091);
-            padding: 10px;
-            border-radius: 10px;
-            margin: 10px;
-            h4{
-                color: rgb(0, 180, 180);
-                text-align: center;
-                text-transform: uppercase;
-            }
-            p{
-                color: rgb(211, 212, 212);
-                text-align: center;
-            }
-        }
-    }
-}
+/*AYUDA GRID FIN*/
 }
 
 @media only screen and (min-width:768px){
-    /*BODY AYUDA INICIO*/
-    .body-ayuda{
-        background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
-        background-color: rgb(8, 19, 54);
-        background-position: center;
-        background-size: cover;
-        background-repeat: none;
-        background-attachment: fixed;
-    }
-    /*BODY AYUDA FIN*/
-    
-    /*AYUDA GRID*/
-    .ayuda-page{
-        width: 600px;
-        height: auto;
-    }
-
-    .ayuda-page{
-        h1{
-            text-transform: uppercase;
-            color: aqua;
-            padding: 10px;
-            padding-top: 40px;
-            font-size: 50px;
-            text-align: center;
-        }
-    }
-    
-    .ayuda-page{
-        .ayuda-grids{
-            display: grid;
-            grid-template-columns: repeat(1fr, 300px);
-        }
-    }
-    
-    .ayuda-page{
-        .ayuda-grids{
-            .ayuda-metod{
-                background-color: rgba(208, 120, 255, 0.091);
-                padding: 10px;
-                border-radius: 10px;
+    .main-ayuda{
+        .contenedor-ayudas{
+            display: flex;
+            justify-content: center;
+            .ayuda-web{
+                background-color: rgba(56, 0, 59, 0.245);
+                padding: 5px;
+                margin-top: 50px;
                 margin: 10px;
-                h4{
-                    color: rgb(0, 180, 180);
-                    text-align: center;
-                    text-transform: uppercase;
-                }
-                p{
-                    color: rgb(211, 212, 212);
-                    text-align: center;
+                border-radius: 15px;
+                div{
+                    h1{
+                        color: rgb(0, 220, 220);
+                        text-transform: uppercase;
+                        text-align: center;
+                        margin: 10px;
+                        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
+                    }
+                    p{
+                        color: rgb(221, 221, 221);
+                        text-align: center;
+                    }
                 }
             }
-        }
-    }
-    
-    .ayuda-page{
-        .ayuda-grids{
-            .ayuda-pagos{
-                background-color: rgba(208, 120, 255, 0.091);
-                padding: 10px;
-                border-radius: 10px;
+            .ayuda-ayuda{
+                background-color: rgba(56, 0, 59, 0.245);
+                padding: 5px;
                 margin: 10px;
-                h4{
-                    color: rgb(0, 180, 180);
-                    text-align: center;
-                    text-transform: uppercase;
-                }
-                p{
-                    color: rgb(211, 212, 212);
-                    text-align: center;
-                }
-            }
-        }
-    }
-    
-    .ayuda-page{
-        .ayuda-grids{
-            .ayuda-conec{
-                background-color: rgba(208, 120, 255, 0.091);
-                padding: 10px;
-                border-radius: 10px;
-                margin: 10px;
-                h4{
-                    color: rgb(0, 180, 180);
-                    text-align: center;
-                    text-transform: uppercase;
-                }
-                p{
-                    color: rgb(211, 212, 212);
-                    text-align: center;
+                border-radius: 15px;
+                div{
+                    h1{
+                        color: rgb(0, 220, 220);
+                        text-transform: uppercase;
+                        text-align: center;
+                        margin: 10px;
+                        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
+                    }
+                    p{
+                        color: rgb(221, 221, 221);
+                        text-align: center;
+                    }
                 }
             }
         }

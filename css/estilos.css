@@ -121,7 +121,7 @@ font-family: "Overpass", sans-serif;
     align-items: center;
     text-align: center;
     background-color: rgba(77, 222, 255, 0.098);
-    height: 560px;
+    height: 580px;
     border-radius: 15px;
     margin: 30px;
   }
@@ -135,8 +135,8 @@ font-family: "Overpass", sans-serif;
   }
   .card-index .card-info-index p {
     font-family: "Overpass", sans-serif;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 10px;
     color: rgb(206, 232, 255);
   }
   .card-index .boton-card-index a {
@@ -147,6 +147,7 @@ font-family: "Overpass", sans-serif;
     color: rgb(248, 181, 249);
     font-family: "Overpass", sans-serif;
     font-weight: 800;
+    font-size: 17px;
   }
   /*CARD INDEX FIN*/
   /*TITULO DESTACADOS INDEX INICIO*/
@@ -190,6 +191,7 @@ font-family: "Overpass", sans-serif;
     padding: 10px;
     text-align: center;
     border-top: 1px solid white;
+    font-size: 16px;
   }
   .destacados-card .destacado-index .link-destacado-index {
     text-align: center;
@@ -240,6 +242,7 @@ font-family: "Overpass", sans-serif;
     font-size: 16px;
     padding: 20px;
     color: rgb(206, 232, 255);
+    font-size: 20px;
   }
   .card-index .boton-card-index a {
     text-decoration: none;
@@ -249,6 +252,7 @@ font-family: "Overpass", sans-serif;
     color: rgb(248, 181, 249);
     font-family: "Overpass", sans-serif;
     font-weight: 800;
+    font-size: 18px;
   }
   /*CARD INDEX FIN*/
   /*TITULO DESTACADOS INDEX INICIO*/
@@ -1585,68 +1589,55 @@ font-family: "Overpass", sans-serif;
     background-attachment: fixed;
   }
   /*BODY INDEX FIN*/
-  .formulario {
-    background-color: rgba(254, 189, 255, 0.178);
-    margin-top: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 20px;
-    width: 260px;
-    height: auto;
+  .form-registro {
+    background-color: rgba(111, 13, 87, 0.207);
+    padding: 20px;
+    margin: 20px;
+    color: rgb(221, 215, 250);
+    border-radius: 15px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.184);
   }
-  .formulario h1 {
-    color: rgb(178, 255, 255);
+  .form-registro .form-title {
     text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.458);
+  }
+  .form-registro .controls {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
     padding: 10px;
-    border-bottom: 1px solid white;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
   }
-  form {
-    padding: 10px;
-  }
-  form .username label {
-    color: rgb(61, 22, 50);
-  }
-  .formulario form .recordar {
-    color: rgba(240, 248, 255, 0.185);
-  }
-}
-@media only screen and (min-width: 480px) {
-  /*BODY INDEX INICIO*/
-  .body-inicio-sesion {
-    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
-    background-color: rgb(8, 19, 54);
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-    background-attachment: fixed;
-  }
-  /*BODY INDEX FIN*/
-  .formulario {
-    background-color: rgba(254, 189, 255, 0.178);
-    margin-top: 50%;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 20px;
-    width: 380px;
-    height: auto;
-  }
-  .formulario h1 {
-    color: rgb(178, 255, 255);
+  .form-registro .form-dawn {
     text-align: center;
+  }
+  .form-registro .form-dawn p a {
+    text-decoration: none;
+  }
+  .form-registro .boton-registro {
+    display: flex;
+    justify-content: center;
+  }
+  .form-registro .boton-registro .form-boton {
+    background-color: rgb(150, 44, 107);
     padding: 10px;
-    border-bottom: 1px solid white;
+    border-radius: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.805);
+    margin-bottom: 30px;
+    font-size: 16px;
   }
-  form {
-    padding: 10px;
+  .form-registro .link-logeo {
+    text-align: center;
+    font-size: 16px;
   }
-  form .username label {
-    color: rgb(61, 22, 50);
-  }
-  .formulario form .recordar {
-    color: rgba(240, 248, 255, 0.185);
+  .form-registro .link-logeo p a {
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1660,30 +1651,59 @@ font-family: "Overpass", sans-serif;
     background-attachment: fixed;
   }
   /*BODY INDEX FIN*/
-  .formulario {
-    margin: 0;
-    margin-top: 200px;
-    margin-left: 450px;
-    background-color: rgba(254, 189, 255, 0.178);
-    padding: 10px;
-    border-radius: 20px;
-    width: 500px;
-    height: auto;
+  .form-registro {
+    background-color: rgba(111, 13, 87, 0.207);
+    padding: 20px;
+    margin: 20px;
+    color: rgb(221, 215, 250);
+    border-radius: 15px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    box-shadow: 7px 13px 7px rgba(0, 0, 0, 0.184);
   }
-  .formulario h1 {
-    color: rgb(178, 255, 255);
+  .form-registro .form-title {
     text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.458);
+  }
+  .form-registro .controls {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
     padding: 10px;
-    border-bottom: 1px solid white;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
   }
-  form {
+  .form-registro .form-dawn {
+    text-align: center;
+  }
+  .form-registro .form-dawn p a {
+    text-decoration: none;
+  }
+  .form-registro .boton-registro {
+    display: flex;
+    justify-content: center;
+  }
+  .form-registro .boton-registro .form-boton {
+    background-color: rgb(150, 44, 107);
     padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.805);
+    margin-bottom: 30px;
+    font-size: 16px;
   }
-  form .username label {
-    color: rgb(61, 22, 50);
+  .form-registro .link-logeo {
+    text-align: center;
+    font-size: 16px;
   }
-  .formulario form .recordar {
-    color: rgba(240, 248, 255, 0.185);
+  .form-registro .link-logeo p a {
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 320px) {
@@ -1698,135 +1718,81 @@ font-family: "Overpass", sans-serif;
   }
   /*BODY AYUDA FIN*/
   /*AYUDA GRID*/
-  .ayuda-page h1 {
-    text-transform: uppercase;
-    color: aqua;
-    padding: 10px;
-    padding-top: 40px;
-    font-size: 50px;
-    text-align: center;
-  }
-  .ayuda-page .ayuda-grids {
-    display: grid;
-    grid-template-columns: repeat(1fr, 300px);
-  }
-  .ayuda-page .ayuda-grids .ayuda-metod {
-    background-color: rgba(208, 120, 255, 0.091);
-    padding: 10px;
-    border-radius: 10px;
+  .main-ayuda .contenedor-ayudas .ayuda-web {
+    background-color: rgba(56, 0, 59, 0.245);
+    padding: 5px;
+    margin-top: 50px;
     margin: 10px;
+    border-radius: 15px;
   }
-  .ayuda-page .ayuda-grids .ayuda-metod h4 {
-    color: rgb(0, 180, 180);
-    text-align: center;
+  .main-ayuda .contenedor-ayudas .ayuda-web div h1 {
+    color: rgb(0, 220, 220);
     text-transform: uppercase;
-  }
-  .ayuda-page .ayuda-grids .ayuda-metod p {
-    color: rgb(211, 212, 212);
     text-align: center;
-  }
-  .ayuda-page .ayuda-grids .ayuda-pagos {
-    background-color: rgba(208, 120, 255, 0.091);
-    padding: 10px;
-    border-radius: 10px;
     margin: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
   }
-  .ayuda-page .ayuda-grids .ayuda-pagos h4 {
-    color: rgb(0, 180, 180);
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .ayuda-page .ayuda-grids .ayuda-pagos p {
-    color: rgb(211, 212, 212);
+  .main-ayuda .contenedor-ayudas .ayuda-web div p {
+    color: rgb(221, 221, 221);
     text-align: center;
   }
-  .ayuda-page .ayuda-grids .ayuda-conec {
-    background-color: rgba(208, 120, 255, 0.091);
-    padding: 10px;
-    border-radius: 10px;
+  .main-ayuda .contenedor-ayudas .ayuda-ayuda {
+    background-color: rgba(56, 0, 59, 0.245);
+    padding: 5px;
     margin: 10px;
+    border-radius: 15px;
   }
-  .ayuda-page .ayuda-grids .ayuda-conec h4 {
-    color: rgb(0, 180, 180);
-    text-align: center;
+  .main-ayuda .contenedor-ayudas .ayuda-ayuda div h1 {
+    color: rgb(0, 220, 220);
     text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
   }
-  .ayuda-page .ayuda-grids .ayuda-conec p {
-    color: rgb(211, 212, 212);
+  .main-ayuda .contenedor-ayudas .ayuda-ayuda div p {
+    color: rgb(221, 221, 221);
     text-align: center;
   }
+  /*AYUDA GRID FIN*/
 }
 @media only screen and (min-width: 768px) {
-  /*BODY AYUDA INICIO*/
-  .body-ayuda {
-    background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
-    background-color: rgb(8, 19, 54);
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-    background-attachment: fixed;
+  .main-ayuda .contenedor-ayudas {
+    display: flex;
+    justify-content: center;
   }
-  /*BODY AYUDA FIN*/
-  /*AYUDA GRID*/
-  .ayuda-page {
-    width: 600px;
-    height: auto;
-  }
-  .ayuda-page h1 {
-    text-transform: uppercase;
-    color: aqua;
-    padding: 10px;
-    padding-top: 40px;
-    font-size: 50px;
-    text-align: center;
-  }
-  .ayuda-page .ayuda-grids {
-    display: grid;
-    grid-template-columns: repeat(1fr, 300px);
-  }
-  .ayuda-page .ayuda-grids .ayuda-metod {
-    background-color: rgba(208, 120, 255, 0.091);
-    padding: 10px;
-    border-radius: 10px;
+  .main-ayuda .contenedor-ayudas .ayuda-web {
+    background-color: rgba(56, 0, 59, 0.245);
+    padding: 5px;
+    margin-top: 50px;
     margin: 10px;
+    border-radius: 15px;
   }
-  .ayuda-page .ayuda-grids .ayuda-metod h4 {
-    color: rgb(0, 180, 180);
-    text-align: center;
+  .main-ayuda .contenedor-ayudas .ayuda-web div h1 {
+    color: rgb(0, 220, 220);
     text-transform: uppercase;
-  }
-  .ayuda-page .ayuda-grids .ayuda-metod p {
-    color: rgb(211, 212, 212);
     text-align: center;
-  }
-  .ayuda-page .ayuda-grids .ayuda-pagos {
-    background-color: rgba(208, 120, 255, 0.091);
-    padding: 10px;
-    border-radius: 10px;
     margin: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
   }
-  .ayuda-page .ayuda-grids .ayuda-pagos h4 {
-    color: rgb(0, 180, 180);
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .ayuda-page .ayuda-grids .ayuda-pagos p {
-    color: rgb(211, 212, 212);
+  .main-ayuda .contenedor-ayudas .ayuda-web div p {
+    color: rgb(221, 221, 221);
     text-align: center;
   }
-  .ayuda-page .ayuda-grids .ayuda-conec {
-    background-color: rgba(208, 120, 255, 0.091);
-    padding: 10px;
-    border-radius: 10px;
+  .main-ayuda .contenedor-ayudas .ayuda-ayuda {
+    background-color: rgba(56, 0, 59, 0.245);
+    padding: 5px;
     margin: 10px;
+    border-radius: 15px;
   }
-  .ayuda-page .ayuda-grids .ayuda-conec h4 {
-    color: rgb(0, 180, 180);
-    text-align: center;
+  .main-ayuda .contenedor-ayudas .ayuda-ayuda div h1 {
+    color: rgb(0, 220, 220);
     text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.625);
   }
-  .ayuda-page .ayuda-grids .ayuda-conec p {
-    color: rgb(211, 212, 212);
+  .main-ayuda .contenedor-ayudas .ayuda-ayuda div p {
+    color: rgb(221, 221, 221);
     text-align: center;
   }
 }
@@ -1864,5 +1830,133 @@ header .nav-bar .links-navbar a:hover {
 }
 
 /*EFECCTO INDEX FIN*/
+@media only screen and (min-width: 320px) {
+  /*BODY INDEX INICIO*/
+  .body-inicio-sesion {
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-color: rgb(8, 19, 54);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  .form-registro {
+    background-color: rgba(111, 13, 87, 0.207);
+    padding: 20px;
+    margin: 20px;
+    color: rgb(221, 215, 250);
+    border-radius: 15px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.184);
+  }
+  .form-registro .form-title {
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.458);
+  }
+  .form-registro .controls {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
+  }
+  .form-registro .form-dawn {
+    text-align: center;
+  }
+  .form-registro .form-dawn p a {
+    text-decoration: none;
+  }
+  .form-registro .boton-registro {
+    display: flex;
+    justify-content: center;
+  }
+  .form-registro .boton-registro .form-boton {
+    background-color: rgb(150, 44, 107);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.805);
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .form-registro .link-logeo {
+    text-align: center;
+    font-size: 16px;
+  }
+  .form-registro .link-logeo p a {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /*BODY INDEX INICIO*/
+  .body-inicio-sesion {
+    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+    background-color: rgb(8, 19, 54);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+  }
+  /*BODY INDEX FIN*/
+  .form-registro {
+    background-color: rgba(111, 13, 87, 0.207);
+    padding: 20px;
+    margin: 20px;
+    color: rgb(221, 215, 250);
+    border-radius: 15px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    box-shadow: 7px 13px 7px rgba(0, 0, 0, 0.184);
+  }
+  .form-registro .form-title {
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.458);
+  }
+  .form-registro .controls {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 16px;
+  }
+  .form-registro .form-dawn {
+    text-align: center;
+  }
+  .form-registro .form-dawn p a {
+    text-decoration: none;
+  }
+  .form-registro .boton-registro {
+    display: flex;
+    justify-content: center;
+  }
+  .form-registro .boton-registro .form-boton {
+    background-color: rgb(150, 44, 107);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: rgba(255, 255, 255, 0.805);
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .form-registro .link-logeo {
+    text-align: center;
+    font-size: 16px;
+  }
+  .form-registro .link-logeo p a {
+    text-decoration: none;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
