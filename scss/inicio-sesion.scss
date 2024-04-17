@@ -33,14 +33,6 @@
             border: none;
             font-size: 16px;
         }
-        .form-dawn{
-            text-align: center;
-            p{
-                a{
-                    text-decoration: none;
-                }
-            }
-        }
         .boton-registro{
             display: flex;
             justify-content: center;
@@ -60,6 +52,7 @@
             p{
                 a{
                     text-decoration: none;
+                    color: rgb(136, 0, 255);
                 }
             }
         }
@@ -85,12 +78,12 @@
         margin: 20px;
         color: rgb(221, 215, 250);
         border-radius: 15px;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
         margin-top: 100px;
         width: 600px;
         margin: auto;
-        margin-top: 100px;
-        margin-bottom: 200px;
+        margin-top: 225px;
+        margin-bottom: 310px;
         box-shadow: 7px 13px 7px rgba(0, 0, 0, 0.184);
         .form-title{
             text-align: center;

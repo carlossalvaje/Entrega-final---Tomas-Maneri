@@ -1613,12 +1613,6 @@ font-family: "Overpass", sans-serif;
     border: none;
     font-size: 16px;
   }
-  .form-registro .form-dawn {
-    text-align: center;
-  }
-  .form-registro .form-dawn p a {
-    text-decoration: none;
-  }
   .form-registro .boton-registro {
     display: flex;
     justify-content: center;
@@ -1638,6 +1632,7 @@ font-family: "Overpass", sans-serif;
   }
   .form-registro .link-logeo p a {
     text-decoration: none;
+    color: rgb(136, 0, 255);
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1657,12 +1652,12 @@ font-family: "Overpass", sans-serif;
     margin: 20px;
     color: rgb(221, 215, 250);
     border-radius: 15px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     margin-top: 100px;
     width: 600px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 225px;
+    margin-bottom: 310px;
     box-shadow: 7px 13px 7px rgba(0, 0, 0, 0.184);
   }
   .form-registro .form-title {
@@ -1832,7 +1827,7 @@ header .nav-bar .links-navbar a:hover {
 /*EFECCTO INDEX FIN*/
 @media only screen and (min-width: 320px) {
   /*BODY INDEX INICIO*/
-  .body-inicio-sesion {
+  .body-registro {
     background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
     background-color: rgb(8, 19, 54);
     background-position: center;
@@ -1894,8 +1889,8 @@ header .nav-bar .links-navbar a:hover {
 }
 @media only screen and (min-width: 768px) {
   /*BODY INDEX INICIO*/
-  .body-inicio-sesion {
-    background-image: url(../img/fondos-body/fondo-verde-mobile.jpg);
+  .body-registro {
+    background-image: url(../img/fondos-body/fondo-verde-pc.jpg);
     background-color: rgb(8, 19, 54);
     background-position: center;
     background-size: cover;
@@ -1913,8 +1908,8 @@ header .nav-bar .links-navbar a:hover {
     margin-top: 100px;
     width: 600px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 125px;
+    margin-bottom: 210px;
     box-shadow: 7px 13px 7px rgba(0, 0, 0, 0.184);
   }
   .form-registro .form-title {
@@ -1956,6 +1951,7 @@ header .nav-bar .links-navbar a:hover {
   }
   .form-registro .link-logeo p a {
     text-decoration: none;
+    color: rgb(136, 0, 255);
   }
 }
 
